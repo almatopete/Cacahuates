@@ -20,12 +20,7 @@ export default class App extends Component {
     };
     this.routerRef = React.createRef();
   }
-  async componentDidMount() {
-    let user = localStorage.getItem("user");
-    const products = await axios.get('http://localhost:3001/products');
-    user = user ? JSON.parse(user) : null;
-    this.setState({ user,  products: products.data });
-  }
+
   addProduct = (product, callback) => {
     let products = this.state.products.slice();
     products.push(product);
@@ -90,11 +85,6 @@ export default class App extends Component {
     this.clearCart();
   };
 
-  componentDidMount() {
-    let user = localStorage.getItem("user");
-    user = user ? JSON.parse(user) : null;
-    this.setState({ user });
-  }
   login = async (email, password) => {
     const res = await axios.post(
       'http://localhost:3001/login',
@@ -146,7 +136,7 @@ export default class App extends Component {
             aria-label="main navigation"
           >
             <div className="navbar-brand">
-            <a class="navbar-item" href="#">
+            <a className="navbar-item" href="#">
       <img src="../images/LOGOEMPRESA.png" width="200" height="500"/>
     </a>
               <b className="navbar-item is-size-4 ">Peanut House</b>

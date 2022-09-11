@@ -131,7 +131,7 @@ class AddProduct extends Component {
               )}
               <div className="field is-clearfix">
                 <button
-                  className="button is-primary is-outlined is-pulled-right"
+                  className="button is-primary is-pulled-right"
                   type="submit"
                   onClick={this.save}
                 >
