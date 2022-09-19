@@ -9,6 +9,7 @@ import axios from 'axios';
 import jwt_decode from 'jwt-decode';
 
 import Context from "./Context";
+import Historia from "./components/Historia";
 
 export default class App extends Component {
   constructor(props) {
@@ -176,6 +177,9 @@ export default class App extends Component {
                     { Object.keys(this.state.cart).length }
                   </span>
                 </Link>
+                <Link to="/historia" className="navbar-item">
+                  Historia
+                </Link>
                 {!this.state.user ? (
                   <Link to="/login" className="navbar-item">
                     Iniciar sesión
@@ -193,6 +197,8 @@ export default class App extends Component {
               <Route exact path="/cart" element={<Cart/>} />
               <Route exact path="/add-product" element={<AddProduct/>} />
               <Route exact path="/products" element={<ProductList/>} />
+              <Route exact path="/historia" element={<Historia/>} />
+
             </Routes>
           </div>
         </Router>
