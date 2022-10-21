@@ -16,5 +16,8 @@ $link: $pink;
 
 $navbar-item-img-max-height: 10.75rem;
 
+$fa-font-path: "~font-awesome/fonts/";
+
 // Import only what you need from Bulma
 @import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/font-awesome/scss/font-awesome.scss";
