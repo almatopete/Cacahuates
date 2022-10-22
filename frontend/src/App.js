@@ -11,6 +11,8 @@ import jwt_decode from 'jwt-decode';
 import Context from "./Context";
 import Historia from "./components/Historia";
 import Contacto from "./components/Contacto";
+import Facturacion from "./components/Facturacion";
+
 
 export default class App extends Component {
   constructor(props) {
@@ -184,6 +186,10 @@ export default class App extends Component {
                 <Link to="/contacto" className="navbar-item">
                   Contacto
                 </Link>
+                <Link to="/facturacion" className="navbar-item">
+                  Facturación
+                </Link>
+
                 {!this.state.user ? (
                   <Link to="/login" className="navbar-item">
                     Iniciar sesión
@@ -203,6 +209,8 @@ export default class App extends Component {
               <Route exact path="/products" element={<ProductList/>} />
               <Route exact path="/historia" element={<Historia/>} />
               <Route exact path="/contacto" element={<Contacto/>} />
+              <Route exact path="/facturacion" element={<Facturacion/>} />
+
 
 
             </Routes>
