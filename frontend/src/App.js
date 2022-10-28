@@ -12,6 +12,8 @@ import Context from "./Context";
 import Historia from "./components/Historia";
 import Contacto from "./components/Contacto";
 import Facturacion from "./components/Facturacion";
+import Privacidad from "./components/Privacidad";
+
 
 
 export default class App extends Component {
@@ -189,6 +191,10 @@ export default class App extends Component {
                 <Link to="/facturacion" className="navbar-item">
                   Facturación
                 </Link>
+                <Link to="/privacidad" className="navbar-item">
+                  Privacidad
+                </Link>
+
 
                 {!this.state.user ? (
                   <Link to="/login" className="navbar-item">
@@ -210,6 +216,8 @@ export default class App extends Component {
               <Route exact path="/historia" element={<Historia/>} />
               <Route exact path="/contacto" element={<Contacto/>} />
               <Route exact path="/facturacion" element={<Facturacion/>} />
+              <Route exact path="/privacidad" element={<Privacidad/>} />
+
 
 
 
