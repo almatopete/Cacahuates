@@ -15,7 +15,7 @@
     {
       "id": "alsiplfmw5hl7wrzf5v",
       "name": "Crema de cacahuate chunky",
-      "price": "251",
+      "price": "250",
       "stock": 95,
       "shortDesc": "Órganica",
       "description": "Crema de cacahuate 100% orgánica, con pedazos de cacahuate crujientes en tu paladar",
@@ -24,7 +24,7 @@
     {
       "id": "563ob5sk9fil7ws13j5",
       "name": "Crema de cacahuate ",
-      "price": "250",
+      "price": "255",
       "stock": "200",
       "shortDesc": "",
       "description": "Crema de cacahuate 100% orgánica, hecha por artesanos mexicanos, se derrite en tu paladar",
@@ -33,8 +33,8 @@
     {
       "id": "nbgnhhkktkdl7wsnw6x",
       "name": "Cacahuate natural",
-      "price": "85",
-      "stock": 196,
+      "price": "75",
+      "stock": 198,
       "shortDesc": "Cacahuate natural",
       "description": "Cacahuate natural sin cáscara, 100% orgánico, empacado al alto vacío",
       "image": "images/cacahuatenatural.jpg"
@@ -61,7 +61,7 @@
       "id": "u0qvici0h5nl7wsspe8",
       "name": "Crema de cacahuate sin azúcar añadida",
       "price": "230",
-      "stock": "201",
+      "stock": "211",
       "shortDesc": "Crema de cacahuate sin azúcar añadida",
       "description": "Crema de cacahuate sin azúcar añadida, ni endulzantes, 100% orgánica, ",
       "image": "images/mantequillacacahuate.jpg"
