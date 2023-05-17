@@ -27,7 +27,9 @@ INTEGRAL
 •	Informar si se realizarán transferencias que requieran consentimiento.
 •	Mecanismos para ejercer los derechos ARCO.
 •	Domicilio de la Unidad de Transparencia.
-•	Medio en los que comunicará a los titulares los cambios al aviso de privacidad.</p>
+•	Medio en los que comunicará a los titulares los cambios al aviso de privacidad.
+
+        </p>
 </div>
   </div>
 </div>

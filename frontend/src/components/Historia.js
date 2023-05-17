@@ -14,7 +14,12 @@ export default function Historia() {
   <div className="column is-three-fifths is-offset-one-fifth">
     <div className="content is-large">
         <h1>Nuestra historia</h1>
-        <p>Fundada en 2001 en la ciudad de Guadalajara, Jalisco, México, nuestra fundadora María Gómez se vio en la necesidad de crear una empresa hecha con productos 100% orgánicos, de cacahuates recolectados en nuestro país, apoyando así a la economía mexicana y a fomentar la salud de todos al dejar de consumir productos saturados de químicos y pesticidas. </p>
+        <p>Fundada en Guadalajara Jalisco, México en enero de 2001, nuestra fundadora María Gómez 
+          se vio en la necesidad de crear una empresa hecha con productos 100% orgánicos, libres 
+          de pesticidas, sembrados en nuestros campos mexicanos, apoyando de esta manera la economía 
+          mexicana, y también fomentando la salud de nuestros consumidores al instarlos a comer productos
+          libres de químicos y pesticidas.
+           </p>
     </div>
   </div>
 </div>

@@ -22,10 +22,13 @@ export default function Contacto() {
     correo electrónico: PeanutHouse.contacto@gmail.com
     <br></br>
     <br></br>
-    oficina central 5546789876
+    TikTok como @PeanutHouse
     <br></br>
     <br></br>
-    Whatsapp 554567321
+    oficina central 5546789877
+    <br></br>
+    <br></br>
+    Whatsapp 554567322
 
         </div>
         <a className="button is-medium is-facebook is-outlined">
